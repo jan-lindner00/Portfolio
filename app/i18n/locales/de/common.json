@@ -1,0 +1,26 @@
+{
+    "header": {
+        "closeMenu": "Menü schließen",
+        "openMenu": "Menü öffnen",
+        "home": "Start",
+        "homepage": "Startseite",
+        "experience": "Ausbildung",
+        "skills": "Stärken",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "emailAria": "Schicke mir eine Email",
+        "visit": "Besuche mein",
+        "cpr": "Gebaut mit Next.js & Tailwind.",
+        "chooseLang": "Wähle eine Sprache"
+    },
+    "projects": {
+        "works": ["Wie die App", "funktioniert"],
+        "technologies": ["Genutzte", "Technologien"],
+        "learned": ["Was ich gelernt", "habe"],
+        "continued": ["Weiter-", "Entwicklung"],
+        "ariaPrev": "Gehe zu vorherigem Projekt",
+        "ariaNext": "Gehe zu nächstem Projekt"
+    }
+}

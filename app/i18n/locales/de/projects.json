@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "slug": "fx-checker",
+            "name": "Fremdwährungs-Kurs Rechner",
+            "description": "Eine Full-Stack App, die es Benutzern ermöglicht aktuelle Währungskurse im Blick zu behalten",
+            "imgAlt": "Startseite des Fremdwährungs-Kurs Rechners. Oben läuft ein Ticker, der die Raten unterschiedlicher Währungen anzeigt. In der Mitte sind 2 Input Felder: 1 mit dem Titel \"Senden\" und ein anders mit dem Titel \"Empfangen\". Unten ist ein Linien-Diagramm, dass den aktuellen Kurs über Zeit anzeigt.",
+            "functionality": "Mit der Anwendung lassen sich 55 unterschiedliche Währungskurse miteinander vergleichen. Die Benutzer können einen Geldbetrag zum Senden eingeben und sehen, wie dieser in Echtzeit umgewandelt wird. Sie können die \"Senden\" und \"Empfangen\" Währungen aus einem Picker mit Suchfunktion auswählen. Außerdem lassen sich die Senden und Empfangen Währungen über eine Schaltfläche tauschen. Das aktive Paar kann als Favorit hinzugefügt werden und alle Umrechnungen lassen sich im Log abspeichern.<br> Zudem sehen die Nutzer einen Liveticker mit Währungspaaren, jeder mit dem aktuellen Kurs und der prozentualen Veränderung in den letzten 24 Stunden. Außerdem wird ein Liniendiagramm mit dem Kurs des aktiven Paars angezeigt.<br>Benutzer bekommen einen Log mit Umrechnungen, die sie gemacht haben angezeigt. Logs können als .csv exportiert werden. Favoriten und Logs werden in einer Datenbank gespeichert. Man hat deshalb die Möglichkeit einen Account anzulegen oder mit einem Gästeaccount fortzufahren. Gästeaccounts können später mit einem bestehenden Google Account verlinkt werden.",
+            "technologies": [
+                "Mobile-first",
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Supabase",
+                "Accessibility"
+            ],
+            "technologiesPreview": [
+                "Next.js",
+                "Tailwind",
+                "Supabase"
+            ],
+            "whatILearned": "Dies war das erste große Projekt, dass ich mit dem Next.js App Router gebaut habe. Ich habe gelernt, wie man server- und client-seitiges Routing implementiert und wie ein Proxy funktioniert. Zusätzlich habe ich einige neue Tailwind-Klassen kennengelernt und mir angeeignet, wie man Supabase mit server-seitigem Routing verwendet.<br> In diesem Projekt habe ich außerdem Authentifizierung mit Supabase implementiert, inklusive OAuth. Außerdem habe ich mein SQL-Können verbessert, indem ich Trigger-Funktionen für meine Datenbank geschrieben habe und RLS-Richtlinien angewendet habe.",
+            "continuedDevelopment": "In der Zukunft möchte ich die Barrierefreiheit meiner Projekte verbessern. Vor allem weil dieses Projekt ein Liniendiagramm enthält und ich finde, dass dieser Bereich am meisten Verbesserungspotenzial hat. Außerdem möchte ich Tests für meine Komponenten schreiben und die Projektstruktur optimieren",
+            "linkGithub": "https://github.com/jan-lindner00/FX_Checker",
+            "linkSite": "https://fx-checker.gruppe-l.me",
+            "imageUrl": "/images/fx-checker.jpg"
+        },
+        {
+            "slug": "savings-tracker",
+            "name": "Sparplan-Verwalter App",
+            "description": "Eine Full-Stack App die Menschen hilft ihre Finanzen besser zu managen",
+            "imgAlt":"Dashboard des Sparplan-Verwalters. Oben ist das Logo, sowie ein Button zu sehen, auf dem steht \"Neues Ziel\". In der Mitte ist eine Übersicht von Statistiken zu sehen, wie die Gesamtmenge an Ersparnissen, den aktiven Zielen sowie den abgeschlossenen Zielen. Unten ist der Bereich der Ziele zu sehen. Da noch kein Ziel hinzugefügt wurde, ist dort ein Button auf dem steht \"Erstes Ziel erstellen\".",
+            "functionality": "Die App ermöglicht es Benutzern Sparziele mit einem Zielbetrag und einer Deadline zu erstellen. Ziele können gefiltert und sortiert werden, um einfacher den Überblick zu behalten.<br> Nachdem man ein Ziel erstellt hat, können Einzahlungen für dieses Ziel notiert werden und eine Übersicht der Einzahlungen wird angezeigt. Ein Balkendiagramm vergleicht die Einzahlungen pro Monat.<br> Ziele und Einzahlungen werden in einer Datenbank gespeichert. Deswegen können Nutzer einen Account anlegen, um ihre Daten zu speichern.",
+            "technologies": [
+                "Mobile-first",
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Supabase",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "Next.js",
+                "Tailwind",
+                "Supabase"
+            ],
+            "whatILearned": "Dies ist das zweite größere Projekt, das ich mit Next.js gebaut habe. Ich habe viel über Routing und Proxy gelernt. Außerdem habe ich Linear-Gradients und Hintergrundbilder mit Tailwind geübt. Zudem habe ich Trigger-Funktionen für das Supabase-Backend geschrieben. Ich habe auch OAuth für dieses Projekt implementiert. Auch über Accessibility habe ich viel gelernt. So habe ich es geschafft, dass das Dashboard nur mit der Tastatur navigierbar ist.",
+            "continuedDevelopment": "In der Zukunkt möchte ich die Barrierefreiheit noch weiter optimieren. Auch einen kleinen Fehler, der auftritt, wenn man die Zieldetails-Seite neu lädt, möchte ich beheben. Dort wird dann nämlich die 404-Seite angezeigt.",
+            "linkGithub": "https://github.com/jan-lindner00/Savings-Tracker",
+            "linkSite": "https://savingstracker.gruppe-l.me",
+            "imageUrl": "/images/savings-tracker.jpg"
+        },
+        {
+            "slug": "tictactoe",
+            "name": "Tic Tac Toe (das Spiel)",
+            "description": "Klassisches Spiel, das sich allein oder zu zweit spielen lässt",
+            "imgAlt": "Spielbildschirm des Tic Tac Toe Spiels. Oben ist ein Feld, das anzeigt, dass X an der Reihe ist. In der Mitte sind die neun Spielfelder zu sehen. Einige sind mit einem X oder O gefüllt. Unten wird die Statistik angezeit. Also Siege X und O und Unentschieden.",
+            "functionality": "Bei diesem Projekt habe ich den Klassiker Tic Tac Toe als Webanwendung nachgebaut. Spieler können wählen, ob sie gegen den intelligenten Computer oder gegeneinander spielen möchten.<br> Außerdem können die Spieler wählen, ob sie X oder O sein möchten. Beachte: X fängt an. Die Spieler spielen abwechselnd bis 3 Felder in einer Reihe oder diagonal einem Spieler gehören oder bis alle Felder besetzt sind.<br>Die Anwendung liefert Statistiken für jede Sitzung und speichert den aktuellen Spielstand im lokalen Speicher. Spieler können so problemlos nach einer Pause zurückkehren. Der Computer-Gegner berechntet die bestmöglichen Züge. Hast du das Zeug den Computer zu schlagen?",
+            "technologies": [
+                "Mobile-first",
+                "React",
+                "TailwindCSS",
+                "Accessibility",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "React",
+                "Tailwind"
+            ],
+            "whatILearned": "Bei diesem Projekt habe ich meine Problemlösungsfähigkeiten geschärft, indem ich einen intelligenten Computergegner programmiert habe. Ich persönlich finde es wirklich sehr schwer gegen ihn zu gewinnen. Auch habe ich meine React und Tailwind Fähigkeiten gestärkt. Zusätlich habe ich ein wenig React Router verwendet, um vom Startbildschirm zum Spielbildschirm zu navigieren. ",
+            "continuedDevelopment": "In der Zukunkt möchte ich das Benutzererlebnis des Spiels verbessern und Tests für die Komponenten schreiben.",
+            "linkGithub": "https://github.com/jan-lindner00/Tic-Tac-Toe",
+            "linkSite": "https://tictactoe.gruppe-l.me",
+            "imageUrl": "/images/tic-tac-toe.jpg"
+        },
+        {
+            "slug": "hangman",
+            "name": "Hangman (das Spiel)",
+            "description": "Errate das Wort - 8 falsche Buchstaben und du hast verloren",
+            "imgAlt": "Spielbildschirm des Hangman Spiels. Oben wird die Kategorie angezeigt, in diesem Fall Länder. In der Mitte sind gefüllte Felder für die erratenen Buchstaben und leere Felder für die nicht erratenen Felder. Unten ist eine Tastatur zu sehen, auf der einige Buchstaben ausgegraut sind.",
+            "functionality": "Der Spieler kann aus 6 Kategorien, u.a. TV-Sendungen und Hauptstädte auswählen. Danach wird zufällig ein zu ratendes Wort aus dieser Kategorie ausgewählt.<br>Der Spieler kann solange raten, bis er 8 mal falsch lag. Lag er 8 mal falsch, hat er verloren. Wird ein richtiger Buchstabe geraten, werden alle Zeichen des gesuchten Wortes angezeigt, die mit diesem anfangen. Wird jedoch ein falscher Buchstabe geraten, wird der jeweilige Buchstabe auf der Tastatur ausgegraut.<br>Während des Spiels hat man die Option das Spiel vorzeitig zu beenden oder die Kategorie zu wechseln. Ist ein Spiel beendet, kann es mit der selben Kategorie wiederholt werden. Es gibt eine Menge Wörte zum raten - mache dir also keine Sorgen, dass es langweilig wird.",
+            "technologies": [
+                "Mobile-first",
+                "React",
+                "CSS3",
+                "JSON",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "React",
+                "Accessibility"
+            ],
+            "whatILearned": "Dies war eines der ersten Projekte, die ich mit React gebaut habe. Ich habe viel über Zustands-Management gelernt und wann man useState benutzen solle oder nicht. Außerdem habe ich einiges über Effekte in React gelernt. Zudem hat sich mein Wissen über barrierefreie Websites durch das Projekt verbessert.",
+            "continuedDevelopment": "In der Zukunft möchte ich einen perfekten Lighthouse-Score mit diesem Projekt erreichen. Außerdem möchte ich das Design finetunen.",
+            "linkGithub": "https://github.com/jan-lindner00/Hangman",
+            "linkSite": "https://hangman.gruppe-l.me",
+            "imageUrl": "/images/hangman.jpg"
+        }
+    ]
+}

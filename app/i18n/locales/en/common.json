@@ -1,0 +1,26 @@
+{
+    "header": {
+        "closeMenu": "Open menu",
+        "openMenu": "Close menu",
+        "home": "Home",
+        "homepage": "Home",
+        "experience": "Experience",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "footer": {
+        "emailAria": "Send me an email",
+        "visit": "Visit my",
+        "cpr": "Built with Next.js & Tailwind",
+        "chooseLang": "Choose a language"
+    },
+    "projects": {
+        "works": ["How it", "works"],
+        "technologies": ["Technologies", "used"],
+        "learned": ["What I've", "learned"],
+        "continued": ["Continued ", "Development"],
+        "ariaPrev": "Go to previous project",
+        "ariaNext": "Go to next project"
+    }
+}

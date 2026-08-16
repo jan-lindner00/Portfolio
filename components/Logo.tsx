@@ -1,0 +1,19 @@
+interface LogoProps extends React.SVGProps<SVGSVGElement> {
+  className?: string;
+  style?: React.CSSProperties;
+  fill?: string;
+  width?: string | number;
+  height?: string | number;
+}
+
+export default function Logo({className, ...props}: LogoProps ){
+  return (
+    <svg
+      className={className}
+      viewBox="0 12 68.6500015258789 37.45000076293945" data-asc="0.97"
+      {...props}
+    >
+      <defs/><g><g transform="translate(0, 0)"><path d="M13.25 49.45Q9.30 49.45 6.30 47.90Q3.30 46.35 1.65 43.35Q0 40.35 0 36L0 34.40L7.05 34.40L7.05 36.60Q7.05 39.50 8.75 41.17Q10.45 42.85 13.20 42.85Q16 42.85 17.68 41.17Q19.35 39.50 19.35 36.60L19.35 17.25L26.45 17.25L26.45 36Q26.45 40.35 24.80 43.35Q23.15 46.35 20.20 47.90Q17.25 49.45 13.25 49.45M4.45 18.25L4.45 12L26.45 12L26.45 18.25L4.45 18.25ZM34.85 48.50L34.85 12L41.95 12L41.95 48.50L34.85 48.50M40.95 48.50L40.95 42.25L56.70 42.25L56.70 48.50L40.95 48.50ZM60.85 48.50L60.85 40.50L68.65 40.50L68.65 48.50L60.85 48.50Z"/></g></g>
+    </svg>
+  )
+}

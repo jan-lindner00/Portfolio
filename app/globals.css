@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme{
+  --font-inter: var(--inter);
+  --font-sora: var(--sora);
+
+  --color-neutral-*: initial;
+  --color-neutral-950: #000;
+  --color-neutral-900: #050404;
+  --color-neutral-800: #212020;
+  --color-neutral-300: #C4C4C4;
+  --color-neutral-50: #fff;
+  --color-lightgreen-500: #DDED88;
+
+
+  --text-h1mobile: 2.5rem;
+  --text-h1mobile--line-height: 1.15;
+  --text-h1mobile--font-weight: 700;
+
+  --text-h2mobile: 2rem;
+  --text-h2mobile--line-height: 1.15;
+  --text-h2mobile--font-weight: 700;
+
+  --text-h3mobile: 1rem;
+  --text-h3mobile--line-height: 1.5;
+  --text-h3mobile--font-weight: 400;
+
+  --text-pmobile: 1rem;
+  --text-pmobile--line-height: 1.5;
+  --text-pmobile--font-weight: 400;
+
+  --text-small: 0.75rem;
+  --text-small--line-height: calc(17/12);
+
+  --text-stats-mobile: calc(55rem / 16);
+  --text-stats-mobile--line-height: 1.15;
+  --text-stats-mobile--font-weight: 700;
+
+  --text-hldesktop: calc(85rem / 16);
+  --text-hldesktop--line-height: 1.15;
+  --text-hldesktop--font-weight: 700;
+
+  --text-h3desktop: 1.5rem;
+  --text-h3desktop--line-height: 1;
+  --text-h3desktop--font-weight: 400;
+
+  --text-pdesktop: 1.125rem;
+  --text-pdesktop--line-height: calc(24 / 18);
+  --text-pdesktop--font-weight: 400;
+
+  --text-stats-desktop: calc(85rem / 16);
+  --text-stats-mobile--line-height: 1.15;
+  --text-stats-mobile--font-weight: 700;
+
+  --breakpoint-sm: 33rem;
+  --breakpoint-md: 56rem;
+  --breakpoint-2xl: 90rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #050404;
+  color: #fff;
+}
+
+/* Visible keyboard focus everywhere, in the accent color */
+:focus-visible {
+  outline: 2px solid #DDED88;
+  outline-offset: 3px;
+}
+
+a, button {
+  cursor: pointer
+}
+
+select, option{
+  font-family: sans-serif;
+}
+
+a{
+  transition: color 300ms ease-out;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #fff;
+  opacity: 0.8;
+}
+
+.specialization-card:nth-of-type(even){
+  background-color: #212020;
+  color: #fff;
+  
+}
+
+/* Thin, dark scrollbar to match the terminal aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1420;
+}
+::-webkit-scrollbar-thumb {
+  background: #262e42;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4562;
+}
+
+/* Scroll-reveal primitive: elements start hidden, JS toggles .is-visible */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in {
+  scale: 0.7;
+  opacity: 0;
+  transition: opacity, scale 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  scale: 1;
+}
+
+/* Stagger primitive: children fade in together once the ancestor .reveal
+   is marked visible; each child's own transition-delay (set inline) spaces
+   them out. Avoids needing one IntersectionObserver per grid item. */
+.stagger > * {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible .stagger > * {
+  opacity: 1;
+  transform: none;
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal,
+  .stagger > * {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.menu-mobile{
+  overflow: hidden;
+  height: 0;
+  animation: revealMenu 1s both ease-out;
+}
+
+@keyframes revealMenu {
+  to{
+    height: 14.5rem;
+  }
+}
+
+.active{
+  color: #DDED88;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

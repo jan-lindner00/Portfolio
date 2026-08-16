@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "slug": "fx-checker",
+            "name": "Currency Exchange Converter",
+            "description": "A full-stack app that lets users keep track of current currency exchange rates.",
+            "imgAlt": "Home page of the foreign currency exchange rate calculator. At the top is a ticker that displays the exchange rates for various currencies. In the middle are two input fields: one labeled “Send” and the other labeled “Receive.” At the bottom is a line chart that shows the current exchange rate over time.",
+            "functionality": "The app lets you check exchange rates for 55 different currencies. Users can enter a send amount to send and see it convert in real time as they type.\n    They can pick the \"send\" and \"receive\" currencies from a searchable currency picker.\n    Also they can swap the send and receive currencies with the swap button, favorite the active pair, and log a conversion \n    to their history.\n    <br>\n    In addition they see a ticker of currency pairs, each with its current rate and 24-hour change (up or down)\n    and view a line and area chart of the active pair's rate over time.\n    <br>\n    Users see a log of conversions they've made, each showing the relative time, the pair, and the send and receive amounts\n    Logs can be exported as .csv.\n    Favorites and Logs are stored in a database. Because of that users can create an account or continue as guest. \n    Guests can link their session to a Google account to become permanent users.\n    ",
+            "technologies": [
+                "Mobile-first",
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Supabase",
+                "Accessibility"
+            ],
+            "technologiesPreview": [
+                "Next.js",
+                "Tailwind",
+                "Supabase"
+            ],
+            "whatILearned": "This was the first major project with Next.js App Router that I built myself from scratch. \n    I learned how to implement server- and client-side routing, as well as how proxy works. \n    In addition I learned a couple new Tailwind classes and how to use Supabase with server-side rendering. \n    <br>\n    In this project I also implemented an Authentication flow, including OAuth 2.0 with Supabase. I learned how to do this properly\n    with server-side rendering. On top of that I leveled up my SQL skills by writing triggers and functions \n    for my database and applying Row Level Security to my tables.",
+            "continuedDevelopment": "In the future I want to improve the accessibility of my projects. \n    Especially since this project includes line charts and I feel like this area is lacking a bit. \n    Also I want to write tests for my components and tidy up the project structure.",
+            "linkGithub": "https://github.com/jan-lindner00/FX_Checker",
+            "linkSite": "https://fx-checker.gruppe-l.me",
+            "imageUrl": "/images/fx-checker.jpg"
+        },
+        {
+            "slug": "savings-tracker",
+            "name": "Savings Tracker",
+            "description": "A full-stack app that lets users manage their finances more easily",
+            "imgAlt":"Savings Tracker Dashboard. At the top, you'll see the logo and a button labeled “New Goal.” In the middle, there’s an overview of statistics, such as the total amount saved, active goals, and completed goals. At the bottom is the goals section. Since no goals have been added yet, there’s a button labeled “Create First Goal.”",
+            "functionality": "The app lets you check exchange create saving goals with a target amount and optional deadline.\n    Goals can be filtered and sorted in alphabethical order, by highest or lowest progress or by deadline to make \n    it easier to keep track.\n    <br>\n    After creating a goal you can make deposits towards your goal and see an overview of deposit history. \n    Also a bar charts compares your savings for each month.\n    <br>\n    Goals and Deposits are stored in a Database. That is why users can create an account to save their data. \n    But they can also continue as Guest. They can login with email and password or with their Google account.\n    ",
+            "technologies": [
+                "Mobile-first",
+                "Next.js",
+                "React",
+                "TailwindCSS",
+                "Supabase",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "Next.js",
+                "Tailwind",
+                "Supabase"
+            ],
+            "whatILearned": "This was the second project I built with Next.js. I learned how the App Router works as well as how to customize a proxy.\n    I practiced linear-gradients and background-images with Tailwind CSS. Moreover custom trigger functions were created for the supabase backend.\n    In addition I practiced implementing OAuth in my applications. I think I also learned a lot about accessibility. For example how to create a \n    dashboard that is fully navigateable with the keyboard.",
+            "continuedDevelopment": "In the future I want to improve the accessibility of my projects. \n    Also there is a bug that occurs when reloading the goal details page.\n    The not-found page is shown even though the goal exists. I want to fix that.",
+            "linkGithub": "https://github.com/jan-lindner00/Savings-Tracker",
+            "linkSite": "https://savingstracker.gruppe-l.me",
+            "imageUrl": "/images/savings-tracker.jpg"
+        },
+        {
+            "slug": "tictactoe",
+            "name": "Tic Tac Toe Game",
+            "description": "Classic game that you can play solo or with your friends",
+            "imgAlt": "Game screen for the Tic-Tac-Toe game. At the top is a box indicating that it is X's turn. In the middle are the nine game squares. Some are filled with an X or an O. The statistics are displayed at the bottom: “X wins, O wins, and ties.",
+            "functionality": "For this one I recrated the well-known game Tic Tac Toe as a web application.\n    Players can choose if they want to play vs the intelligent computer opponent or against each other.\n    <br>\n    Players can also choose if they want to play as X or O. Remember X goes first. The opponents take turns until one has a combo of\n    three fields in a row or along the diagonal axis or until all fields are filled.\n    <br>\n    The app provides statistics for each session and saves the current game state in local storage. So you can return to a previous session easily.\n    The computer opponent calculates which available moves are the best. Do you think you have what it takes to beat the computer?\n    ",
+            "technologies": [
+                "Mobile-first",
+                "React",
+                "TailwindCSS",
+                "Accessibility",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "React",
+                "Tailwind"
+            ],
+            "whatILearned": "During this project I really sharpened my problem solving skills by programming an intelligent CPU opponent, that makes \n    it hard to win against.\n    I also practiced my React and Tailwind skills. \n    In addition to that I used a little bit of React Router to navigate between the start and game screen. ",
+            "continuedDevelopment": "In the future I want to improve the accessibility of my project as this area is lacking the most. \n    Other then that I am pretty happy with my app.",
+            "linkGithub": "https://github.com/jan-lindner00/Tic-Tac-Toe",
+            "linkSite": "https://tictactoe.gruppe-l.me",
+            "imageUrl": "/images/tic-tac-toe.jpg"
+        },
+        {
+            "slug": "hangman",
+            "name": "Hangman Game",
+            "description": "Guess the word - 8 incorrect guesses and you're out",
+            "imgAlt": "Game screen for the Hangman game. The category is displayed at the top; in this case, “Capitals.” In the middle are filled-in boxes for the guessed letters and empty boxes for the unguessed letters. At the bottom is a keyboard, on which some letters are grayed out.",
+            "functionality": "Hangman - we've all played it before. You can choose from 6 different categories, including TV shows and capital cites.\n    After that you are presented a word or multiple words that you have to guess correctly.\n    <br>\n    Players can guess as often as they want. However after 8 incorrect guesses they are out. When a correct letter is guessed, all\n    occurrences of that letter in the sought word are shown. If a guess is incorrect, the respective letter button will turn grey and gets disabled.\n    <br>\n    During the game you can quit or switch categories. When the game is finished it can be restarted with the same category. There are plenty of words \n    to guess, so don't worry about the game becoming repetitive.\n    ",
+            "technologies": [
+                "Mobile-first",
+                "React",
+                "CSS3",
+                "JSON",
+                "Responsive Design"
+            ],
+            "technologiesPreview": [
+                "React",
+                "Accessibility"
+            ],
+            "whatILearned": "This was one of the first projects that I've built with React. I learned a lot about state management an when to use useState or not during building this project.\nI also learned a lot about effects in React. Lastly my accessibility skills were improved after completing this challenge. ",
+            "continuedDevelopment": "In the future I want to work on getting a perfect accessibility score with this project, as well as finetuning the design.",
+            "linkGithub": "https://github.com/jan-lindner00/Hangman",
+            "linkSite": "https://hangman.gruppe-l.me",
+            "imageUrl": "/images/hangman.jpg"
+        }
+    ]
+}

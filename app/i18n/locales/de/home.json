@@ -1,0 +1,46 @@
+{
+    "hero": {
+        "introductionLines": ["Ich bin", "angehender", "Developer"],
+        "imgAlt": "Ich - Jan Niklas Lindner lächele in die Kamera",
+        "paragraph": ["Ich code einfach gerne", "praktische Dinge und habe", "dabei eine gute Zeit!"],
+        "linkImgAlt": "Zu den Projekten",
+        "apprentice": ["2tes", "Ausbildungs-", "jahr"],
+        "courses": ["Stunden an Online-Kursen", "absolviert"]
+    },
+    "experience": {
+        "quote": ["Mache alles so einfach wie möglich -", " aber nicht einfacher"],
+        "aboutMe": "Willkommen bei meinem Portfolio! Ich bin jemand, der es liebt zu lernen und optisch ansprechende sowie funktionale Webanwendungen zu programmieren. Ich mache zur Zeit eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung und bin derzeit im 2. Lehrjahr. Ich bin immer auf der Suche nach neuen Herausforderungen und Möglichkeiten meine Fähigkeiten weiterzuentwickeln. Zusätzlich zu meiner Ausbildung, absolviere ich Online-Kurse, um mein Wissen zu erweitern und über neue Technologien zu lernen. Dieses Jahr zum Beispiel habe ich Scrimba's Full Stack Developer Kurs abgeschlossen. Derzeit lerne ich, wie man KI in Webanwendungen integriert. Ich wohne derzeit in Heidelberg.",
+        "education": "Ausbildung & praktische Erfahrung",
+        "present": "Heute",
+        "apprentice": ["Ausbildung Fachinformatiker", "für Anwendungsentwicklung"],
+        "onlineCourses": "Online-Kurse"
+    },
+    "skills": {
+        "heading": ["Meine", "Stärken"],
+        "cardOne": {
+            "title": "Backend Entwicklung",
+            "description": "Während meiner Ausbildung bei der SRH Neckargemünd, lerne ich Backend Entwicklung mit Java."
+        },
+        "cardTwo": {
+            "title": "Webentwicklung",
+            "description": "Derzeit lerne ich Full Stack Entwicklung mit React, Next.js, Tailwind CSS und TypeScript bei Scrimba."
+        },
+        "cardThree": {
+            "title": "Datenbanken",
+            "description": "In meiner Ausbildung lerne ich mit relationalen Datenbanken zu arbeiten und lerne wie man diese in Java und Webanwendungen einbaut."
+        },
+        "headingTwo": ["Meine", "Fähigkeiten"]
+    },
+    "projects":{
+        "heading": ["Vorgestellte", "Projekte"],
+        "link-aria": "Klicke hier, um das Projekt {{title}} anzusehen."
+    },
+    "contact": {
+        "heading": ["Kontaktformular", ""],
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "sending": ["Sende Nachricht...", "Sende eine Nachricht"],
+        "sent": "Gesendet - Ich werde mich in Kürze bei dir melden",
+        "error": "Etwas ist schief gelaufen. Bitte versuche es erneut."
+    }
+}

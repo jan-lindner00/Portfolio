@@ -1,0 +1,46 @@
+{
+    "hero": {
+        "introductionLines": ["I am", "aspiring", "developer"],
+        "imgAlt": "Jan Niklas Lindner smiling into the camera",
+        "paragraph": ["I code beautifully simple", "things and I love what I do.", "Just simple like that!"],
+        "linkImgAlt": "Zu den Projekten",
+        "apprentice": ["2nd", "year", "apprentice"],
+        "courses": ["hours of online courses", "completed"]
+    },
+    "experience": {
+        "quote": ["Make everything as simple as possible,", " but not simpler"],
+        "aboutMe": "Welcome to my portfolio! I am someone who loves learning and creating beautiful, functional web applications. I am currently doing an apprenticeship to become a software developer, and I am always looking for new challenges and opportunities to develop my skills. In addition to my apprenticeship, I take online courses to expand my knowledge and learn about new technologies. For example, this year I completed Scrimba's Full Stack Developer course. I am currently learning how to integrate AI into web applications. I am based in Heidelberg, Germany.",
+        "education": "Education & Experience",
+        "present": "Present",
+        "apprentice": ["Software Developer", "Apprentice"],
+        "onlineCourses": "online courses"
+    },
+     "skills": {
+        "heading": ["My", "primary focus"],
+        "cardOne": {
+            "title": "Backend Development",
+            "description": "During my training at SRH Neckargemünd, I am learning Backend Development with Java."
+        },
+        "cardTwo": {
+            "title": "Web Development",
+            "description": "I am currently learning Full Stack Web Development with React, Next.js, Tailwind CSS and TypeScript at Scrimba."
+        },
+        "cardThree": {
+            "title": "Databases",
+            "description": "At SRH Neckargemünd, I am learning how to work with databases and how to integrate them into Java and web applications."
+        },
+        "headingTwo": ["My", "skills"]
+    },
+    "projects":{
+        "heading": ["Featured", "projects"],
+        "link-aria": "Click here to see {{title}} project."
+    },
+      "contact": {
+        "heading": ["Let's get", "in touch"],
+        "subject": "Subject",
+        "message": "Message",
+        "sending": ["Sending message...", "Send a message"],
+        "sent": "Sent - I'll get back to you soon",
+        "error": "Something went wrong. Please try again."
+    }
+}

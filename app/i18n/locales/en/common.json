@@ -16,6 +16,9 @@
         "chooseLang": "Choose a language"
     },
     "projects": {
+        "project": "Project",
+        "viewSite": "View site",
+        "viewCode": "View code",
         "works": ["How it", "works"],
         "technologies": ["Technologies", "used"],
         "learned": ["What I've", "learned"],

@@ -46,7 +46,7 @@ export default async function Project({params}: {params: Promise<{lang: string, 
                     <Reveal delay={150}>
                         <h1 className="text-h2mobile md:text-[3rem] 2xl:text-h2desktop font-sora uppercase text-balance
                         mb-6 md:mb-9 2xl:mb-12">
-                            Project - 
+                            {t("common.projects.project")} - 
                             <span className="text-lightgreen-500"> {project.name}</span>
                         </h1>
                     </Reveal>
@@ -54,7 +54,7 @@ export default async function Project({params}: {params: Promise<{lang: string, 
                         <h2 className="text-pmobile md:text-h3desktop leading-[1.4]">{project.description}</h2>
                     </Reveal>
                     <Reveal delay={450}>
-                        <ProjectLinks linkGithub={project.linkGithub} linkSite={project.linkSite}/>
+                        <ProjectLinks linkGithub={project.linkGithub} linkSite={project.linkSite} t={t}/>
                     </Reveal>
                 </div>
                 <Reveal delay={150}>

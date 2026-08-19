@@ -17,11 +17,11 @@ export default function Message({message, t}: {message: MessageType, t: Record<s
             <div 
                 className="w-fit p-2 rounded-[.5rem] text-small md:text-pmobile text-neutral-900 bg-lightgreen-500/95 relative before:absolute before:content-['']
                 before:w-2 before:aspect-square before:bg-lightgreen-500/95 before:rotate-45 before:-left-1 before:top-3 z-1 before:z-2"
-                aria-label={t.messageVibeAria}
+                aria-label={t.messageTomAria}
             >
                 {message.content}
             </div>
-            <span aria-hidden className="text-small text-neutral-50 opacity-80 ml-2">Vibe</span>
+            <span aria-hidden className="text-small text-neutral-50 opacity-80 ml-2">Tom</span>
         </div>
     )
 }

@@ -95,7 +95,7 @@ export default function Chat({lang, t}: {lang: Locale, t: Record<string, string>
     return (
         <>
             {!openChat && (
-                <div className="w-fit flex items-center gap-2 md:gap-4 fixed bottom-4 md:bottom-6 right-4 md:right-6">
+                <div className="w-fit flex items-center gap-2 md:gap-4 fixed bottom-4 md:bottom-6 right-4 md:right-6 z-1000">
                     {showHint && (
                         <div 
                             className="w-50 md:w-75 p-4 bg-grey-700 shadom-md relative bg-gray-700 text-small md:text-pmobile rounded-sm

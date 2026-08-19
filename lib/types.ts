@@ -25,3 +25,14 @@ export type ContactRequestBody = {
     subject: string,
     message: string
 }
+
+export type MessageType = {
+    role: string,
+    content: string
+}
+
+export type MatchObj = {
+    id: number,
+    content: string,
+    similarity: number
+}

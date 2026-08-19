@@ -25,5 +25,23 @@
         "continued": ["Continued ", "Development"],
         "ariaPrev": "Go to previous project",
         "ariaNext": "Go to next project"
+    },
+    "chat":{
+        "greeting": "Hello, I'm Vibe. Ask me any question about Jan Niklas and his projects.",
+        "pending": "Thinking...",
+        "error": "An error occurred. Please try again.",
+        "unknownError": "An unknown error occurred. Please try again.",
+        "hint": "Ask my AI assistant any question about me.",
+        "closeHintAria": "Hide hint.",
+        "chatBtnAria": "Have a chat with my AI assistant Vibe.",
+        "closeBtnAria": "Close chat window.",
+        "heading": "Have a chat with my assistant", 
+        "you": "You",
+        "messageYouAria": "Message from you:",
+        "messageVibeAria": "Message from Vibe:",
+        "textareaLabel": "Ask vibe a question",
+        "textareaPlaceholder": "Ask a question...",
+        "sendBtnAria": "Send message.",
+        "send": "Send"
     }
 }

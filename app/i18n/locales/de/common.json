@@ -25,5 +25,23 @@
         "continued": ["Weiter-", "Entwicklung"],
         "ariaPrev": "Gehe zu vorherigem Projekt",
         "ariaNext": "Gehe zu nächstem Projekt"
+    },
+    "chat":{
+        "greeting": "Hallo, mein Name ist Vibe. Hast du Fragen zu Jan Niklas und seinen Projekten?",
+        "pending": "Denkt nach...",
+        "error": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+        "unknownError": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut.",
+        "hint": "Stelle meinem KI-Assistenten Fragen zu mir.",
+        "closeHintAria": "Zeig Hinweis nicht mehr an.",
+        "chatBtnAria": "Chatte mit meinem KI Assistenten Vibe.",
+        "closeBtnAria": "Chat-Fenster schließen",
+        "heading": "Chatte mit meinem Assistenten", 
+        "you": "Du",
+        "messageYouAria": "Nachricht von dir:",
+        "messageVibeAria": "Nachricht von Vibe:",
+        "textareaLabel": "Schreibe Vibe eine Nachricht",
+        "textareaPlaceholder": "Stell eine Frage...",
+        "sendBtnAria": "Sende Nachricht",
+        "send": "Senden"
     }
 }

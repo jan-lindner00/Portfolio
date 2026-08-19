@@ -3,6 +3,7 @@ import { Sora, Inter } from "next/font/google";
 import "@/app/globals.css"
 import Footer from '@/components/Footer';
 import { createTranslator, loadTranslations } from '../i18n/utils';
+import Chat from '@/components/Chat';
 
 const sora = Sora({
     weight: ["400", "500", "600", "700"],
@@ -33,6 +34,7 @@ export default async function RootLayout({
 }) {
   const translations = await loadTranslations((await params).lang as Locale, ["common"])
   const t = createTranslator(translations)
+  const tChat = t("common.chat")
   return (
     <html 
         lang={(await params).lang} 
@@ -43,6 +45,7 @@ export default async function RootLayout({
         className="antialiased font-inter text-neutral-50"
     >
         {children}
+        <Chat lang={(await params).lang as Locale} t={tChat} />
         <Footer lang={(await params).lang as Locale} t={t} />
     </body>
     </html>

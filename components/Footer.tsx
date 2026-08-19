@@ -6,7 +6,7 @@ export default function Footer({lang, t}:
   {lang: Locale, t: (key: string, params?: Record<string, string>) => string}) {
     const tPicker = t("common.footer.chooseLang")
     return (
-    <footer className={`w-full px-4 md:px-8 2xl:px-12 max-w-[1440px] text-small md:text-pdesktop pb-8 md:pb-15`}>
+    <footer className={`w-full px-4 md:px-8 2xl:px-12 max-w-[1440px] text-small md:text-pdesktop pb-8 md:pb-15 mx-auto`}>
       <Link 
         className="inline-block w-full text-center text-small md:text-left md:text-pdesktop opactity-80 mb-5 md:mb-8"
         aria-label={t("common.footer.emailAria")}

@@ -81,6 +81,17 @@ body{
   outline-offset: 3px;
 }
 
+.project-link{
+  &:focus, &:focus-visible{
+    outline: none;
+  }
+}
+
+.project-card:has(.project-link:focus-visible){
+  outline: 2px solid #DDED88;
+  outline-offset: 3px;
+}
+
 a, button {
   cursor: pointer
 }
@@ -100,8 +111,7 @@ input::placeholder, textarea::placeholder{
 
 .specialization-card:nth-of-type(even){
   background-color: #212020;
-  color: #fff;
-  
+  color: #fff; 
 }
 
 /* Thin, dark scrollbar to match the terminal aesthetic */

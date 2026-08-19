@@ -8,7 +8,7 @@ export default function ProjectCard({ title,imageSrc, imageAlt, technologies, li
      }
 ) {
     return (
-        <section className="group flex flex-col hover:scale-105 transition-all duration-300 ease-in-out hover:-translate-y-[1px]
+        <section className="group project-card flex flex-col hover:scale-105 transition-all duration-300 ease-in-out hover:-translate-y-[1px]
          text-neutral-50 relative max-w-[345px] 2xl:max-w-[652px]">
             <h3 className="text-small md:text-h3desktop 2xl:text-[1.5rem] font-regular uppercase
             mb-1 md:mb-4 2xl:mb-6 text-center md:text-left">
@@ -32,7 +32,7 @@ export default function ProjectCard({ title,imageSrc, imageAlt, technologies, li
                 })}
             </div>
             <Link
-            className="after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full z-1000" 
+            className="project-link after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full z-1000" 
                 href={linkHref}
                 aria-label={t("home.projects.link-aria", {title: title})}
              />

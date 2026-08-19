@@ -141,11 +141,7 @@ export default function Chat({lang, t}: {lang: Locale, t: Record<string, string>
                             setOpenChat(false)
                         }
                     }}
-                    onBlur={(e)=>{
-                        if(!chatRef.current?.contains(e.relatedTarget)){
-                            setOpenChat(false)
-                        }
-                    }}
+                    
                 >
                     <div className="flex items-center justify-between gap-4">
                         <h2 className="text-h3mobile font-semibold md:text-pdesktop">{t.heading}</h2>
@@ -159,8 +155,8 @@ export default function Chat({lang, t}: {lang: Locale, t: Record<string, string>
                             <Image className="w-8" src={ChevronDown} alt="" />
                         </button>
                     </div>
-                    <div className="h-full py-4 bg-neutral-900">
-                        <div className="h-full flex flex-col gap-4 px-3 bg-neutral-900 overflow-y-auto"
+                    <div className="h-full flex flex-col py-4 bg-neutral-900">
+                        <div className="h-full max-h-[calc(100dvh-16rem)] md:max-h-[calc(100dvh-17rem)] flex flex-col gap-4 px-3 bg-neutral-900 overflow-y-auto"
                         aria-live="polite">
                             <Message t={t} message={greetingMessage} />
                             {messages.map((message, index) => {
